@@ -64,13 +64,13 @@ public class LinkedList {
 
     boolean searchNode(int nodeValue) {
         if (head != null) {
-            Node tempNode = head;
+            Node temp = head;
             for (int i=0; i<size; i++) {
-                if (tempNode.value == nodeValue) {
+                if (temp.value == nodeValue) {
                     System.out.print("Found the node at location: " +i+"\n");
                     return true;
                 }
-                tempNode = tempNode.next;
+                temp = temp.next;
             }
         }
         System.out.print("Node not found! ");
