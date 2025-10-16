@@ -5,7 +5,7 @@ public class QueueLinkedList {
 
     public QueueLinkedList() {
         list = new LinkedList();
-        System.out.println("The Queue is successfully created");
+        System.out.println("The Queue is successfully created ");
     }
 
     // isEmpty

@@ -73,7 +73,7 @@ public class LinkedList {
                 temp = temp.next;
             }
         }
-        System.out.print("Node not found! ");
+        System.out.print("Node not found!");
         return false;
     }
 
