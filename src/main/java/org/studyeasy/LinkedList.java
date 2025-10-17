@@ -73,7 +73,7 @@ public class LinkedList {
                 temp = temp.next;
             }
         }
-        System.out.print("Node not found!");
+        System.out.print("Node not found!!");
         return false;
     }
 
@@ -115,7 +115,7 @@ public class LinkedList {
     public void deleteSLL() {
         head = null;
         tail = null;
-        System.out.println("The SLL deleted successfully ");
+        System.out.println("The SLL deleted successfully!");
     }
 
 }
