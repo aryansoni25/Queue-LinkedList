@@ -8,8 +8,6 @@ public class Main {
         ql.enQueue(5);
         ql.enQueue(6);
         ql.enQueue(7);
-        ql.enQueue(8);
-        ql.enQueue(9);
         System.out.println(ql.peek());
         System.out.println(ql.deQueue());
     }

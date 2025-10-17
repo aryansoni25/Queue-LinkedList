@@ -57,7 +57,7 @@ public class LinkedList {
                 tempNode = tempNode.next;
             }
         }
-        System.out.println("\n");
+        System.out.println("\n ");
     }
 
     // Search for a node
