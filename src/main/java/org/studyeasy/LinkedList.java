@@ -67,7 +67,7 @@ public class LinkedList {
             Node temp = head;
             for (int i=0; i<size; i++) {
                 if (temp.value == nodeValue) {
-                    System.out.print("Found the node at location: " +i+"\n");
+                    System.out.print("Found the node at location: " +i+" \n");
                     return true;
                 }
                 temp = temp.next;
