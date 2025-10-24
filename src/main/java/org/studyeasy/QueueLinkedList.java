@@ -20,7 +20,7 @@ public class QueueLinkedList {
     //enQueue
     public void enQueue(int value) {
         list.insertInLinkedList(value, list.size);
-        System.out.println("Successfully inserted "+value+" in the queue.");
+        System.out.println("Successfully inserted "+value+" in the queue. ");
     }
 
     // deQueue

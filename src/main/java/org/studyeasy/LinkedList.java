@@ -73,14 +73,14 @@ public class LinkedList {
                 temp = temp.next;
             }
         }
-        System.out.print("Node not found!!");
+        System.out.print("Node not found!! ");
         return false;
     }
 
     //Deleting a node from SinglyLinkedList
     public void deletionOfNode(int location) {
         if (head == null) {
-            System.out.println("The SLL does not exist");
+            System.out.println("The SLL does not exist. ");
             return;
         } else if (location == 0) {
             head = head.next;
