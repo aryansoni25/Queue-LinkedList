@@ -8,7 +8,7 @@ public class Main {
         ql.enQueue(6);
         System.out.println(ql.peek());
         ql.enQueue(7);
-        ql.enQueue(8);
+
         System.out.println(ql.deQueue());
 
 
