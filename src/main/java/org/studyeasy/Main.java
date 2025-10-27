@@ -7,7 +7,7 @@ public class Main {
         ql.enQueue(5);
         ql.enQueue(6);
         System.out.println(ql.peek());
-        ql.enQueue(7);
+
 
         System.out.println(ql.deQueue());
 
