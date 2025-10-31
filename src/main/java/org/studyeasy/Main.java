@@ -11,5 +11,6 @@ public class Main {
         ql.enQueue(8);
         System.out.println(ql.deQueue());
         System.out.println(ql.deQueue());
+
     }
 }

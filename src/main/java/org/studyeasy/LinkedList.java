@@ -115,7 +115,7 @@ public class LinkedList {
     public void deleteSLL() {
         head = null;
         tail = null;
-        System.out.println("The SLL deleted successfully! ");
+        System.out.println("The SLL deleted successfully!");
     }
 
 }
